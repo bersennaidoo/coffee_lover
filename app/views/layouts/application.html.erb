@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CoffeeLover</title>
+    <title><%= yield(:title) %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,25 @@
   </head>
 
   <body>
+    <header>
+      <h1>CoffeeLover Coffee Bar</h1>
+    </header>
+
+    <nav>
+      <b>
+        <a href="/">Home</a>
+        &nbsp;
+        <a href="/menu">Menu</a>
+        &nbsp;
+        <a href="/music">Music</a>
+        &nbsp;
+        <a href="/jobs">Jobs</a>
+      </b>
+    </nav>
     <%= yield %>
+    <footer>
+      <small><i>Copyright &copy 2024 CoffeeLover Coffee Bar</i></small>
+      <p><a href="mailto:bersennaidoo@coffeelover.com">bersennaidoo@coffeelover.com</a></p>
+    </footer>
   </body>
 </html>
