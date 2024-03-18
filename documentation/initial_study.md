@@ -23,3 +23,9 @@
 ## IA represented as a site map
 
 ![](./SiteMap.png)
+
+## Wireframe Diagrams
+
+    Home page layout and structure
+
+![](./HomePageWireframe.png)
