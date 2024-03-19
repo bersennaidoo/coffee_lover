@@ -1,0 +1,27 @@
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+}
+
+header {
+    color: #8C3826;
+    background-color: #D2B48C;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+h2 {
+    color: #8C3826;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    color: #D2B48C;
+    font-size: .60rem;
+}
