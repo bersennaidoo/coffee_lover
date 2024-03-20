@@ -22,6 +22,17 @@ nav {
 }
 
 footer {
-    color: #D2B48C;
+    background-color: #D2B48C;
     font-size: .60rem;
+    text-align: center;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    margin-left: 5px; 
 }
