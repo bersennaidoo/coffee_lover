@@ -23,10 +23,18 @@
         <a href="/music">Music</a>
         &nbsp;
         <a href="/jobs">Jobs</a>
+        &nbsp;
+        <a href="/users/sign_up">Sign up</a>
+        &nbsp;
+        <%= link_to "Sign in", user_session_path %>
+        &nbsp;
+        <%= link_to "Sign out", destroy_user_session_path, data: { "turbo-method": :delete } %>
     </nav>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
     <footer>
-      Copyright &copy 2024 CoffeeLover Coffee Bar<br>
+      Copyright &copy; 2024 CoffeeLover Coffee Bar<br>
       <a href="mailto:bersennaidoo@coffeelover.com">bersennaidoo@coffeelover.com</a>
     </footer>
   </body>
